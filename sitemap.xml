@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
+    <loc>blog/2020/07/katex/index.html</loc>
+    <lastmod>2020-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>index.html</loc>
     <lastmod>2020-12-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -14,7 +20,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>posts/katex/index.html</loc>
+    <loc>blog/2020/11/basics/index.html</loc>
+    <lastmod>2020-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>blog/2019/09/code/index.html</loc>
     <lastmod>2020-12-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
