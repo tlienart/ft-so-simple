@@ -2,6 +2,15 @@
 
 https://github.com/mmistakes/so-simple-theme
 
+## For v1
+
+* [x] basic layout for blog posts
+* [ ] paginated landing page with list of posts
+* [ ] search
+* [ ] tags
+* [ ] calendar list of posts
+* [ ] button next post / previous post
+
 ## Stuff
 
 * [x] basic layout
