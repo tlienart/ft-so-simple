@@ -1,0 +1,70 @@
+:root {
+  --block-background: #f8f8f8;
+  --small: 14px;
+  --normal: 19px;
+}
+
+body { counter-reset: eqnum; }
+
+.katex { font-size: 1em !important; }
+
+.katex-display .katex {
+  /* Overwrite KaTeX settings. */
+  display: inline-block;
+  /* Allow display equations to wrap on small screens. */
+  white-space: normal;
+}
+
+.katex-display::after {
+  counter-increment: eqnum;
+  content: "(" counter(eqnum) ")";
+  position: relative;
+  float: right;
+  padding-right: 5px;
+}
+
+.no-number .katex-display::after {
+  counter-increment: nothing;
+  content: "";
+}
+
+code {
+  background-color: var(--block-background);
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
+  font-size: var(--small);
+}
+
+.hljs {
+  font-size: var(--small);
+  line-height: 1.35em;
+  border-radius: 10px;
+}
+
+.hljs-meta, .hljs-metas, .hljs-metap { font-weight: bold; }
+
+.hljs-meta { color: rgb(25, 179, 51); }
+
+.hljs-metas { color: red; }
+
+.hljs-metap { color: rgb(51, 131, 231); }
+
+
+.page-content h1 > a {
+  text-decoration: none;
+}
+.page-content h2 > a {
+  text-decoration: none;
+}
+.page-content h3 > a {
+  text-decoration: none;
+}
+.page-content h4 > a {
+  text-decoration: none;
+}
+.page-content h5 > a {
+  text-decoration: none;
+}
+.page-content h6 > a {
+  text-decoration: none;
+}

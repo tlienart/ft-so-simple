@@ -10,5 +10,9 @@ author_twitter = "https://twitter.com/mmistakes"
 author_insta = "https://instagram.com/mmistakes"
 author_github = "https://github.com/mmistakes"
 
+author_img = "/assets/images/michael-rose-photo.jpg"
+
 generate_rss = false
+
+content_tag = ""    # don't wrap content
 +++

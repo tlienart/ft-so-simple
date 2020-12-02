@@ -14,3 +14,7 @@ https://github.com/mmistakes/so-simple-theme
 * [ ] different layouts (?)
 * [ ] theme text (?)
 * [ ] font and stuff
+
+## Note
+
+* currently needs Franklin master (to allow [not wrapping body in  tags](https://github.com/tlienart/Franklin.jl/commit/612042b8486130b5e56e087baed29134620a5bff))
