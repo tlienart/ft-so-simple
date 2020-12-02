@@ -1,20 +1,26 @@
 <div class="page-sidebar">
   <div class="page-author h-card p-author">
-    <img src="{{author_img}}" class="author-avatar u-photo" alt="{{author}}">
+    <img src="{{post_author_img}}" class="author-avatar u-photo" alt="{{post_author}}">
     <div class="author-info">
       <div class="author-name">
-        <em>by</em> <span class="p-name">{{author}}</span>
+        <em>by</em> <span class="p-name">{{post_author}}</span>
       </div>
       <ul class="author-links">
+        {{isnotempty post_author_twitter}}
         <li class="author-link">
-          <a class="u-url" rel="me" href="{{author_twitter}}"><i class="fab fa-twitter-square fa-lg" title="Twitter"></i></a>
+          <a class="u-url" rel="me" href="{{post_author_twitter}}"><i class="fab fa-twitter-square fa-lg" title="Twitter"></i></a>
         </li>
+        {{end}}
+        {{isnotempty post_author_insta}}
         <li class="author-link">
-          <a class="u-url" rel="me" href="{{author_insta}}"><i class="fab fa-instagram fa-lg" title="Instagram"></i></a>
+          <a class="u-url" rel="me" href="{{post_author_insta}}"><i class="fab fa-instagram fa-lg" title="Instagram"></i></a>
         </li>
+        {{end}}
+        {{isnotempty post_author_github}}
         <li class="author-link">
-          <a class="u-url" rel="me" href="{{author_github}}"><i class="fab fa-github-square fa-lg" title="GitHub"></i></a>
+          <a class="u-url" rel="me" href="{{post_author_github}}"><i class="fab fa-github-square fa-lg" title="GitHub"></i></a>
         </li>
+        {{end}}
       </ul>
       <!-- <span class="read-time">~1 min read</span> -->
       <!-- <time class="page-date dt-published" datetime="2015-08-10T12:08:50+00:00">

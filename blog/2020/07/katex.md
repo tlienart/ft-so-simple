@@ -1,4 +1,13 @@
-@def title = "KaTeX"
++++
+title = "KaTeX"  #  this must be given
+
+# specify if different than the website wide ones
+post_author = "Kevin Barabash"
+post_author_img = "/assets/images/kevinbarabash.jpg"
+post_author_twitter = ""
+post_author_insta = ""
+post_author_github = "https://github.com/kevinbarabash"
++++
 
 [KaTeX](https://katex.org/) is a simple, yet powerful, way of including maths in pages.
 

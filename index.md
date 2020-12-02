@@ -5,4 +5,6 @@
 
 # Franklin syntax sandbox
 
-Foo bar
+* [basics](/blog/2020/11/basics/)
+* [KaTeX](/blog/2020/07/katex/)
+* [Code](/blog/2019/09/code/)

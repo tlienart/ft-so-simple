@@ -68,3 +68,12 @@ code {
 .page-content h6 > a {
   text-decoration: none;
 }
+
+li > p {
+  margin:0;
+}
+
+.bluebg {
+  background-color: #e6f5ff;
+  margin-bottom: 1.5rem;
+}

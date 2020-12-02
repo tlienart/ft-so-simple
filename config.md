@@ -12,6 +12,12 @@ author_github = "https://github.com/mmistakes"
 
 author_img = "/assets/images/michael-rose-photo.jpg"
 
+post_author = author
+post_author_img = author_img
+post_author_twitter = author_twitter
+post_author_insta = author_insta
+post_author_github = author_github
+
 generate_rss = false
 
 content_tag = ""    # don't wrap content
