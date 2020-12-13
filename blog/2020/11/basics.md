@@ -1,4 +1,8 @@
-@def title = "Basics"
++++
+title = "Basics"
+short = "A short post on Franklin's syntax."
+published = Date(2020, 11, 20)
++++
 
 If you're used to writing simple markdown, then basically you won't  be surprised with Franklin.
 There's a number of  useful additions (a full  list of which can be found in [the  documentation](https://franklinjl.org/syntax/markdown/)).

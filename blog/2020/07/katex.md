@@ -1,5 +1,7 @@
 +++
 title = "KaTeX"  #  this must be given
+short = "How to use KaTeX with Franklin."
+published = Date(2020, 7, 14)
 
 # specify if different than the website wide ones
 post_author = "Kevin Barabash"

@@ -33,7 +33,6 @@
 -->
 
   <script>
-    /* Cut the mustard */
     if ( 'querySelector' in document && 'addEventListener' in window ) {
       document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
     }
@@ -45,21 +44,21 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i">
 
-  <!-- <link rel="alternate" type="application/atom+xml" title="So Simple" href="/so-simple-theme/atom.xml"> -->
 </head>
+
 {{ispage index.html}}
 <body class="layout--home">
 {{end}}
+
 {{ispage blog/*}}
-<body class="layout--post">
+<body class="layout--post {{ispage blog/index.html}}post-archive{{end}}">
 {{end}}
 
-  {{insert nav.html}}
-  {{insert masthead.html}}
+{{insert nav.html}}
+{{insert masthead.html}}
+<main id="main" class="main-content" aria-label="Content">
 
-  <main id="main" class="main-content" aria-label="Content">
-
-{{ispage blog/*}}
+{{ispage blog/*}}{{isnotpage blog/index.html}}
 <article class="h-entry">
   <div class="page-wrapper">
     <header class="page-header">
@@ -68,4 +67,13 @@
     {{insert page_sidebar.html}}
     <div class="page-content">
       <div class="e-content">
+{{end}}{{end}}
+
+{{ispage blog/index.html}}
+<article>
+  <div class="page-wrapper">
+  <header class="page-header">
+    <h1 id="page-title" class="page-title">{{title}}</h1>
+  </header>
+  <div class="page-content">
 {{end}}

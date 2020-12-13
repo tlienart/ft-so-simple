@@ -22,3 +22,9 @@ generate_rss = false
 
 content_tag = ""    # don't wrap content
 +++
+
+<!-- Blog stuff -->
+
++++
+first_blog_year = 2019
++++

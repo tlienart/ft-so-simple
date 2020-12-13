@@ -1,4 +1,8 @@
-@def title = "Code"
++++
+title = "Code"
+short = "Franklin supports code in more ways than one."
+published = Date(2019, 7, 25)
++++
 
 Franklin allows you to insert highlighted code with syntax highlighting provided by [highlight.js](highlightjs.org/) but, maybe more importantly, it allows you to **run** code and show the output.
 
