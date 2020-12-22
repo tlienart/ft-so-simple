@@ -28,3 +28,6 @@ content_tag = ""    # don't wrap content
 +++
 first_blog_year = 2019
 +++
+
+\newcommand{\center}[1]{~~~<div style="text-align:center">~~~#1~~~</br></br></div>~~~}
+
