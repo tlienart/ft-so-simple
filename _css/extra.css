@@ -77,3 +77,10 @@ li > p {
   background-color: #e6f5ff;
   margin-bottom: 1.5rem;
 }
+
+h1 code {font-size: 30px}
+h2 code {font-size: var(--normal)}
+h3 code {font-size: var(--normal)}
+h4 code {font-size: var(--normal)}
+h5 code {font-size: var(--normal)}
+h6 code {font-size: var(--normal)}
