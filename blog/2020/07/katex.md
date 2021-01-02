@@ -1,8 +1,6 @@
 +++
 title = "KaTeX"  #  this must be given
-short = raw"""
-    How to use K$\alpha$Te$\chi$ with Franklin: $2\int_0^\infty {\sin(x) \over \exp(x)}\,\mathrm{d}x = 1$.
-    """
+short = "How to use KaTeX with Franklin."
 published = Date(2020, 7, 14)
 
 # specify if different than the website wide ones

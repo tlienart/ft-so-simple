@@ -50,25 +50,13 @@
 <body class="layout--home">
 {{end}}
 
-{{ispage blog/*}}{{isnotpage blog/index.html}}
-<body class="layout--post">
-{{end}}{{end}}
-{{ispage blog/index.html}}
-<body class="layout--posts post-archive">
+{{ispage blog/*}}
+<body class="layout--post {{ispage blog/index.html}}post-archive{{end}}">
 {{end}}
 
 {{insert nav.html}}
 {{insert masthead.html}}
 <main id="main" class="main-content" aria-label="Content">
-
-{{ispage index.html}}
-  <article>
-    <div class="page-wrapper">
-      <header class="page-header">
-        <h1 id="page-title" class="page-title">{{title}}</h1>
-      </header>
-      <div class="page-content">
-{{end}}
 
 {{ispage blog/*}}{{isnotpage blog/index.html}}
 <article class="h-entry">
@@ -84,8 +72,8 @@
 {{ispage blog/index.html}}
 <article>
   <div class="page-wrapper">
-    <header class="page-header">
-      <h1 id="page-title" class="page-title">{{title}}</h1>
-    </header>
-    <div class="page-content">
+  <header class="page-header">
+    <h1 id="page-title" class="page-title">{{title}}</h1>
+  </header>
+  <div class="page-content">
 {{end}}
